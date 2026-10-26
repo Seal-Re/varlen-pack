@@ -233,9 +233,12 @@ If the dataset can be rewritten and TRL is already in use, TRL's dataset-level
 packing is a direct option. This collator is intended for setups that need
 per-batch packing without changing a tokenized dataset.
 
-## License and provenance
+## License
 
-No license has been selected. The code was extracted from an internal training
-codebase. Confirm ownership and add a license before public distribution. The
-repository contains the generic collator, tests, and tools; it does not contain
-proprietary data, models, or training pipeline code.
+MIT License. See [LICENSE](LICENSE).
+
+## Provenance
+
+The code was extracted from a training codebase. The repository contains the
+generic collator, tests, and tools; it does not contain proprietary data,
+models, or training pipeline code.
